@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    background-image: url(/src/img/bg-repeat.jpg);
+    background-repeat: repeat;
+    width: 90%;
+    height: 600px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.textoInformativo {
+    color: #FFFFFF;
+}
+
+.textoInformativo p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+
+    margin-top: 10px;
+    width: 300px;
+    height: 54px;
+}
+
+.formulario {
+    display: flex;
+    width: 340px;
+    height: 378px;
+    background: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.form-control {
+    position: relative;
+}
+
+ .form-control input, textarea {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 298.01px;
+}
+
+.form-control input {
+    height: 35.11px;
+}
+
+.form-control textarea {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    width: 298.01px;
+    height: 41.13px;
+}
+
+.form-control.sucesso input {
+    border-color: #2ecc71;
+}
+
+.form-control.erro input {
+    border-color: #e74c3c;
+}
+
+.form-control.sucesso textarea {
+    border-color: #2ecc71;
+}
+
+.form-control.erro textarea {
+    border-color: #e74c3c;
+}
+
+.form-control-mensagem textarea {
+    border-color: #e74c3c;
+}
+
+.form-control.erro small {
+    color: #e74c3c;
+    font-size: 10px;
+    visibility: visible;
+}
