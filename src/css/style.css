@@ -75,13 +75,6 @@ body {
     visibility: hidden;
 }
 
-.form-control-mensagem textarea,
-.form-control.erro input ,
-.form-control.erro textarea {
-    border-color: #e74c3c;
-}
-
-
 .button {
     color: #FFFFFF;
     background-color: #3CCC87;
@@ -94,21 +87,17 @@ body {
     border-color: #2ecc71;
 }
 
-.form-control.erro input {
+.form-control-mensagem textarea,
+.form-control.erro input ,
+.form-control.erro textarea {
     border-color: #e74c3c;
 }
+
 
 .form-control.sucesso textarea {
     border-color: #2ecc71;
 }
 
-.form-control.erro textarea {
-    border-color: #e74c3c;
-}
-
-.form-control-mensagem textarea {
-    border-color: #e74c3c;
-}
 
 .form-control.erro small {
     color: #e74c3c;
