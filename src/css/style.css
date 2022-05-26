@@ -45,7 +45,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-left: 60px;
-    border-radius: 8px;
+    padding: 10px;
 }
 
 .form-control {
@@ -74,6 +74,13 @@ body {
     left: 0;
     visibility: hidden;
 }
+
+.form-control-mensagem textarea,
+.form-control.erro input ,
+.form-control.erro textarea {
+    border-color: #e74c3c;
+}
+
 
 .button {
     color: #FFFFFF;
